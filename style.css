@@ -50,7 +50,7 @@ li {
     max-width: 1600px;
     position: relative;
     height: 700px;
-    background-image: url('.//assets/hero-bg.png');
+    background-image: url('./assets/hero-bg.png');
     background-position: center;
 
 }
