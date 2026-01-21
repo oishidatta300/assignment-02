@@ -91,18 +91,16 @@ li {
     color: white;
     text-align: center;
     justify-content: center;
-    padding-top: 30px;
+    padding: 50px 200px 120px;
+
 
 }
 
 .container-card {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding-bottom: 40px;
-
-
-
-    gap: 160px;
 
 }
 
@@ -116,10 +114,11 @@ li {
     text-align: center;
     background-color: rgb(42, 18, 77);
     color: white;
+    padding: 120px 200px;
 }
 
 .TechWave {
-    padding-top: 80px;
+
     padding-bottom: 50px;
 }
 
@@ -151,4 +150,18 @@ li {
 
 .icon {
     max-width: 30px;
+}
+
+.section-title {
+    background-color: rgb(16, 5, 26);
+    padding: 120px 200px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.episodes {
+    display: grid;
+    grid-template-columns: repeat(auto 1fr);
 }
