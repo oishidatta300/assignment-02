@@ -162,6 +162,6 @@ li {
 }
 
 .episodes {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto 1fr);
 }
