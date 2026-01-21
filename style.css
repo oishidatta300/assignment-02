@@ -73,3 +73,82 @@ li {
 }
 
 /*section part 2 */
+.banner-text {
+    justify-content: center;
+    text-align: center;
+    padding-top: 34%;
+}
+
+.btn2 {
+    background: none;
+    border: 2px solid rgb(65, 233, 65);
+    border-radius: 30px;
+    padding: 4px 7px;
+}
+
+#container {
+    background-color: rgb(31, 14, 55);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+
+
+
+    gap: 160px;
+
+}
+
+.card-head {
+    color: rgb(65, 220, 65);
+    font-weight: 900;
+    font-size: 48px;
+}
+
+#about {
+    text-align: center;
+    background-color: rgb(42, 18, 77);
+    color: white;
+}
+
+.TechWave {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background-color: rgb(98, 38, 154);
+    border-radius: 22px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: start;
+    padding-left: 20px;
+
+}
+
+.tall {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.small {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.icon {
+    max-width: 30px;
+}
